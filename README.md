@@ -1,7 +1,7 @@
 ETF Market Analysis & Financial Data Querying (PostgreSQL)
 
 Project Overview
-This project demonstrates foundational to intermediate SQL analytics using daily ETF pricing and volume data in PostgreSQL. The objective was to build a structured query suite covering database management, performance metrics, sector volatility, and multi-asset price comparisons.
+This project demonstrates foundational to intermediate SQL analytics using daily ETF pricing and volume data in PostgreSQL. The objective was to build a structured query suite covering database management, performance metrics, sector volatility, and multi-asset price comparisons. The following file also contains the day by day questions and queries.
 
 Key Technical Concepts Demonstrated
 * **Data Definition & Manipulation (DDL/DML):** Schema creation (`CREATE TABLE`), conditional record updates, and data sanitization routines.
@@ -23,6 +23,9 @@ How to Run
 2. Import `etf_prices.csv` into your PostgreSQL database via pgAdmin or `psql`.
 3. Open `etf_analysis_queries.sql` in pgAdmin and execute queries sequentially.
 
+
+
+DAY BY DAY PROGRESS
 
 DAY 1: Select, From, Where, Limit, Offset
 1. Sector Filtering: Write a query to return the ticker, sector, and close price for rows where the sector is exactly 'Technology'. Limit your output to 10 rows.
